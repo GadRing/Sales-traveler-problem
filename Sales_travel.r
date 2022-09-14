@@ -18,8 +18,8 @@ library('pso')
 city_number <- 21
 
 #Saving the data in variables from files distance_between_cities2 and coordinates2
-data <- read.csv(file="C:/Users/proto/Documents/PSO/distance_between_cities2.csv")
-cordinates <- read.csv(file="C:/Users/proto/Documents/PSO/coordinates2.csv", header=FALSE)
+data <- read.csv(file="distance_between_cities2.csv")
+cordinates <- read.csv(file="coordinates2.csv", header=FALSE)
 
 #Function creating empty matrix 21x2 and filling geographical coordinates from file coordinates2
 City_cordinates_matrix <- function(city_number){
